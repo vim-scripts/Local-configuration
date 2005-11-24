@@ -1,0 +1,4 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1408
+
+I work in a project which involves contribution from many other people each with their own coding style. This script helps to load files from different places but with the right settings. I use "ts=4, sw=4, ..." in directories i use, and set it to "ts=8, sw=8, ..." in the root of the linux kernel directory. These configurations are stored in a file called .lvimrc, subdirectories inherit the settings from their parent unless the subdirectory itself doesnot have a .lvimrc file.
+
